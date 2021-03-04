@@ -1,7 +1,6 @@
 size =  input("What size: S, M or L? ")
 add_pepperoni = input("Do you want extra pepperoni? ")
 add_cheese = input("Do you want extra cheese? ")
-age = int(input("How old are you? "))
 bill = 0;
 
 if size == "S":
