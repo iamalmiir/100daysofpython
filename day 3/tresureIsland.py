@@ -24,7 +24,6 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 lake = ""
 island = ""
-side = ""
 side = input("You're at a cross road. Where do you want to go? Type 'left' or 'right'\n" ).lower()
 if side == "right":
     print("You fell into a hole. Game Over.")
