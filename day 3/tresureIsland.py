@@ -25,15 +25,15 @@ print("Your mission is to find the treasure.")
 lake = ""
 island = ""
 side = ""
-side = input("You're at a cross road. Where do you want to go? Type 'left' or 'right'\n" )
+side = input("You're at a cross road. Where do you want to go? Type 'left' or 'right'\n" ).lower()
 if side == "right":
     print("You fell into a hole. Game Over.")
 elif side == "left":
-    lake += input("You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.\n" )
+    lake += input("You've come to a lake. There is an island in the middle of the lake. Type 'wait' to wait for a boat. Type 'swim' to swim across.\n" ).lower()
 if lake == "swim":
     print("You get attacked by an angry trout. Game Over.")
 elif lake == "wait":
-    island += input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n")
+    island += input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
 if island == "red":
     print("It's a room full of fire. Game Over.")
 elif island == "yellow":
